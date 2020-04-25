@@ -47,6 +47,7 @@ class User {
   }
 
   static String _getLastName(String userName) => userName.split(" ")[1];
+
   static String _getfirstName(String userName) => userName.split(" ")[0];
 
   static String checkPhone(String phone) {
